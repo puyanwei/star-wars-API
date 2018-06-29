@@ -33,4 +33,9 @@ star-wars.js calls `run('The Force Awakens', 'Luke Skywalker')`
 
 which logs `The Force Awakens: Ackbar, BB8, Captain Phasma, Chewbacca, Finn, Han Solo, Leia Organa, Luke Skywalker, Poe Dameron, R2-D2, Rey; Luke Skywalker: A New Hope, Return of the Jedi, Revenge of the Sith, The Empire Strikes Back, The Force Awakens` to the console.
 
-You can try out other films and characters by changing the parameters and then running `node start-wars`
+You can try out other films and characters by changing the parameters and then running `node star-wars`. If they are not found the category will return 'none'.
+
+```
+run('Star Trek', 'Picard')
+// 'Star Trek: none; Picard: none'
+```
