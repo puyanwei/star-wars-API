@@ -24,7 +24,7 @@ function run(film, character) {
 
 ```
 git clone
-cd star-wars
+cd star-wars-API
 npm install
 node star-wars
 ```
