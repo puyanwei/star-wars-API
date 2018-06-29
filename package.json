@@ -1,0 +1,15 @@
+{
+  "name": "star-wars-celebration",
+  "version": "1.0.0",
+  "description": "This was a challenge set working with the [Star Wars API](https://swapi.co/).",
+  "main": "star-wars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
